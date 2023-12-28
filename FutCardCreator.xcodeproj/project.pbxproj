@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EFD01572B3C5CD000C45D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD01562B3C5CD000C45D7E /* AppDelegate.swift */; };
+		4EFD01592B3C5CD000C45D7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD01582B3C5CD000C45D7E /* SceneDelegate.swift */; };
+		4EFD015B2B3C5CD000C45D7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD015A2B3C5CD000C45D7E /* ViewController.swift */; };
+		4EFD015E2B3C5CD000C45D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFD015C2B3C5CD000C45D7E /* Main.storyboard */; };
+		4EFD01602B3C5CD100C45D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EFD015F2B3C5CD100C45D7E /* Assets.xcassets */; };
+		4EFD01632B3C5CD100C45D7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFD01612B3C5CD100C45D7E /* LaunchScreen.storyboard */; };
+		4EFD016E2B3C5CD100C45D7E /* FutCardCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD016D2B3C5CD100C45D7E /* FutCardCreatorTests.swift */; };
+		4EFD01782B3C5CD100C45D7E /* FutCardCreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD01772B3C5CD100C45D7E /* FutCardCreatorUITests.swift */; };
+		4EFD017A2B3C5CD100C45D7E /* FutCardCreatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD01792B3C5CD100C45D7E /* FutCardCreatorUITestsLaunchTests.swift */; };
+		4EFD018A2B3C5D1300C45D7E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD01892B3C5D1300C45D7E /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EFD016A2B3C5CD100C45D7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EFD014B2B3C5CD000C45D7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EFD01522B3C5CD000C45D7E;
+			remoteInfo = FutCardCreator;
+		};
+		4EFD01742B3C5CD100C45D7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EFD014B2B3C5CD000C45D7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EFD01522B3C5CD000C45D7E;
+			remoteInfo = FutCardCreator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EFD01532B3C5CD000C45D7E /* FutCardCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FutCardCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFD01562B3C5CD000C45D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EFD01582B3C5CD000C45D7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4EFD015A2B3C5CD000C45D7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EFD015D2B3C5CD000C45D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EFD015F2B3C5CD100C45D7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EFD01622B3C5CD100C45D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EFD01642B3C5CD100C45D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFD01692B3C5CD100C45D7E /* FutCardCreatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FutCardCreatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFD016D2B3C5CD100C45D7E /* FutCardCreatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutCardCreatorTests.swift; sourceTree = "<group>"; };
+		4EFD01732B3C5CD100C45D7E /* FutCardCreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FutCardCreatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFD01772B3C5CD100C45D7E /* FutCardCreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutCardCreatorUITests.swift; sourceTree = "<group>"; };
+		4EFD01792B3C5CD100C45D7E /* FutCardCreatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutCardCreatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4EFD01892B3C5D1300C45D7E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EFD01502B3C5CD000C45D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFD01662B3C5CD100C45D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFD01702B3C5CD100C45D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EFD014A2B3C5CD000C45D7E = {
+			isa = PBXGroup;
+			children = (
+				4EFD01552B3C5CD000C45D7E /* FutCardCreator */,
+				4EFD016C2B3C5CD100C45D7E /* FutCardCreatorTests */,
+				4EFD01762B3C5CD100C45D7E /* FutCardCreatorUITests */,
+				4EFD01542B3C5CD000C45D7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EFD01542B3C5CD000C45D7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EFD01532B3C5CD000C45D7E /* FutCardCreator.app */,
+				4EFD01692B3C5CD100C45D7E /* FutCardCreatorTests.xctest */,
+				4EFD01732B3C5CD100C45D7E /* FutCardCreatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EFD01552B3C5CD000C45D7E /* FutCardCreator */ = {
+			isa = PBXGroup;
+			children = (
+				4EFD01562B3C5CD000C45D7E /* AppDelegate.swift */,
+				4EFD01582B3C5CD000C45D7E /* SceneDelegate.swift */,
+				4EFD01862B3C5CE200C45D7E /* Model */,
+				4EFD01872B3C5CE700C45D7E /* View */,
+				4EFD01882B3C5CED00C45D7E /* Controller */,
+				4EFD015F2B3C5CD100C45D7E /* Assets.xcassets */,
+				4EFD01612B3C5CD100C45D7E /* LaunchScreen.storyboard */,
+				4EFD01642B3C5CD100C45D7E /* Info.plist */,
+			);
+			path = FutCardCreator;
+			sourceTree = "<group>";
+		};
+		4EFD016C2B3C5CD100C45D7E /* FutCardCreatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EFD016D2B3C5CD100C45D7E /* FutCardCreatorTests.swift */,
+			);
+			path = FutCardCreatorTests;
+			sourceTree = "<group>";
+		};
+		4EFD01762B3C5CD100C45D7E /* FutCardCreatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EFD01772B3C5CD100C45D7E /* FutCardCreatorUITests.swift */,
+				4EFD01792B3C5CD100C45D7E /* FutCardCreatorUITestsLaunchTests.swift */,
+			);
+			path = FutCardCreatorUITests;
+			sourceTree = "<group>";
+		};
+		4EFD01862B3C5CE200C45D7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EFD01892B3C5D1300C45D7E /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4EFD01872B3C5CE700C45D7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4EFD015C2B3C5CD000C45D7E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4EFD01882B3C5CED00C45D7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4EFD015A2B3C5CD000C45D7E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EFD01522B3C5CD000C45D7E /* FutCardCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFD017D2B3C5CD100C45D7E /* Build configuration list for PBXNativeTarget "FutCardCreator" */;
+			buildPhases = (
+				4EFD014F2B3C5CD000C45D7E /* Sources */,
+				4EFD01502B3C5CD000C45D7E /* Frameworks */,
+				4EFD01512B3C5CD000C45D7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FutCardCreator;
+			productName = FutCardCreator;
+			productReference = 4EFD01532B3C5CD000C45D7E /* FutCardCreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EFD01682B3C5CD100C45D7E /* FutCardCreatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFD01802B3C5CD100C45D7E /* Build configuration list for PBXNativeTarget "FutCardCreatorTests" */;
+			buildPhases = (
+				4EFD01652B3C5CD100C45D7E /* Sources */,
+				4EFD01662B3C5CD100C45D7E /* Frameworks */,
+				4EFD01672B3C5CD100C45D7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EFD016B2B3C5CD100C45D7E /* PBXTargetDependency */,
+			);
+			name = FutCardCreatorTests;
+			productName = FutCardCreatorTests;
+			productReference = 4EFD01692B3C5CD100C45D7E /* FutCardCreatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EFD01722B3C5CD100C45D7E /* FutCardCreatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFD01832B3C5CD100C45D7E /* Build configuration list for PBXNativeTarget "FutCardCreatorUITests" */;
+			buildPhases = (
+				4EFD016F2B3C5CD100C45D7E /* Sources */,
+				4EFD01702B3C5CD100C45D7E /* Frameworks */,
+				4EFD01712B3C5CD100C45D7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EFD01752B3C5CD100C45D7E /* PBXTargetDependency */,
+			);
+			name = FutCardCreatorUITests;
+			productName = FutCardCreatorUITests;
+			productReference = 4EFD01732B3C5CD100C45D7E /* FutCardCreatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EFD014B2B3C5CD000C45D7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					4EFD01522B3C5CD000C45D7E = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					4EFD01682B3C5CD100C45D7E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4EFD01522B3C5CD000C45D7E;
+					};
+					4EFD01722B3C5CD100C45D7E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4EFD01522B3C5CD000C45D7E;
+					};
+				};
+			};
+			buildConfigurationList = 4EFD014E2B3C5CD000C45D7E /* Build configuration list for PBXProject "FutCardCreator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EFD014A2B3C5CD000C45D7E;
+			productRefGroup = 4EFD01542B3C5CD000C45D7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EFD01522B3C5CD000C45D7E /* FutCardCreator */,
+				4EFD01682B3C5CD100C45D7E /* FutCardCreatorTests */,
+				4EFD01722B3C5CD100C45D7E /* FutCardCreatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EFD01512B3C5CD000C45D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFD01632B3C5CD100C45D7E /* LaunchScreen.storyboard in Resources */,
+				4EFD01602B3C5CD100C45D7E /* Assets.xcassets in Resources */,
+				4EFD015E2B3C5CD000C45D7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFD01672B3C5CD100C45D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFD01712B3C5CD100C45D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EFD014F2B3C5CD000C45D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFD015B2B3C5CD000C45D7E /* ViewController.swift in Sources */,
+				4EFD01572B3C5CD000C45D7E /* AppDelegate.swift in Sources */,
+				4EFD01592B3C5CD000C45D7E /* SceneDelegate.swift in Sources */,
+				4EFD018A2B3C5D1300C45D7E /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFD01652B3C5CD100C45D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFD016E2B3C5CD100C45D7E /* FutCardCreatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFD016F2B3C5CD100C45D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFD01782B3C5CD100C45D7E /* FutCardCreatorUITests.swift in Sources */,
+				4EFD017A2B3C5CD100C45D7E /* FutCardCreatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EFD016B2B3C5CD100C45D7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EFD01522B3C5CD000C45D7E /* FutCardCreator */;
+			targetProxy = 4EFD016A2B3C5CD100C45D7E /* PBXContainerItemProxy */;
+		};
+		4EFD01752B3C5CD100C45D7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EFD01522B3C5CD000C45D7E /* FutCardCreator */;
+			targetProxy = 4EFD01742B3C5CD100C45D7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EFD015C2B3C5CD000C45D7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFD015D2B3C5CD000C45D7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EFD01612B3C5CD100C45D7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFD01622B3C5CD100C45D7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EFD017B2B3C5CD100C45D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EFD017C2B3C5CD100C45D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EFD017E2B3C5CD100C45D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GLHD9SFFNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FutCardCreator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hkaya.FutCardCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EFD017F2B3C5CD100C45D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GLHD9SFFNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FutCardCreator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hkaya.FutCardCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4EFD01812B3C5CD100C45D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GLHD9SFFNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hkaya.FutCardCreatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FutCardCreator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FutCardCreator";
+			};
+			name = Debug;
+		};
+		4EFD01822B3C5CD100C45D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GLHD9SFFNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hkaya.FutCardCreatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FutCardCreator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FutCardCreator";
+			};
+			name = Release;
+		};
+		4EFD01842B3C5CD100C45D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GLHD9SFFNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hkaya.FutCardCreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FutCardCreator;
+			};
+			name = Debug;
+		};
+		4EFD01852B3C5CD100C45D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GLHD9SFFNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hkaya.FutCardCreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FutCardCreator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EFD014E2B3C5CD000C45D7E /* Build configuration list for PBXProject "FutCardCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFD017B2B3C5CD100C45D7E /* Debug */,
+				4EFD017C2B3C5CD100C45D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EFD017D2B3C5CD100C45D7E /* Build configuration list for PBXNativeTarget "FutCardCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFD017E2B3C5CD100C45D7E /* Debug */,
+				4EFD017F2B3C5CD100C45D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EFD01802B3C5CD100C45D7E /* Build configuration list for PBXNativeTarget "FutCardCreatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFD01812B3C5CD100C45D7E /* Debug */,
+				4EFD01822B3C5CD100C45D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EFD01832B3C5CD100C45D7E /* Build configuration list for PBXNativeTarget "FutCardCreatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFD01842B3C5CD100C45D7E /* Debug */,
+				4EFD01852B3C5CD100C45D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EFD014B2B3C5CD000C45D7E /* Project object */;
+}
