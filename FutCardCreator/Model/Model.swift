@@ -11,6 +11,8 @@ struct Model {
     
     static let imageNames = ["gold", "hereos", "icon", "thunderstruck", "potmBundesliga", "potmEpl", "potmEredivisie", "potmLaliga", "potmLigue1", "potmMls", "potmSerieA", "evolution", "totwRed"]
     
+    static let positionNames = ["GK", "CB", "LB","LWB", "RB", "RWB", "CDM", "CM", "CAM", "LM", "RM", "LW", "RW", "CF", "ST"]
+    
     static let countryFlags: [String: String] = [
         "United Arab Emirates": "🇦🇪",
         "Afghanistan": "🇦🇫",
