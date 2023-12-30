@@ -23,7 +23,7 @@
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="440" id="vzX-is-NgU"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="🇩🇪" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="llh-sw-wPz">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="🇦🇷" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="llh-sw-wPz">
                                 <rect key="frame" x="175.66666666666666" y="431" width="24" height="23"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -57,7 +57,7 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="94" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gvr-bL-gbz">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="90" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gvr-bL-gbz">
                                 <rect key="frame" x="82" y="133" width="57" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -65,7 +65,7 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="39"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="ST" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0ks-tf-Ioy">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="CF" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0ks-tf-Ioy">
                                 <rect key="frame" x="75" y="165" width="56" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="S3m-YI-Fuj"/>
@@ -110,7 +110,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="94" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cCL-TV-ftu">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="80" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cCL-TV-ftu">
                                 <rect key="frame" x="79" y="405" width="25" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -118,7 +118,7 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="94" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xQ1-Tf-hKw">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="87" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xQ1-Tf-hKw">
                                 <rect key="frame" x="120" y="405" width="25" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -126,7 +126,7 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="94" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RKl-Pz-lmT">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="90" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RKl-Pz-lmT">
                                 <rect key="frame" x="159" y="405" width="25" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -142,7 +142,7 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="94" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kdg-oa-Kwd">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="33" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kdg-oa-Kwd">
                                 <rect key="frame" x="240" y="405" width="25" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -150,7 +150,7 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="94" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t3A-AI-fGJ">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="64" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t3A-AI-fGJ">
                                 <rect key="frame" x="281" y="405" width="25" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -158,14 +158,18 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="face" translatesAutoresizingMaskIntoConstraints="NO" id="Uwy-dX-yxw">
-                                <rect key="frame" x="139" y="189" width="160" height="160"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="face" translatesAutoresizingMaskIntoConstraints="NO" id="Uwy-dX-yxw">
+                                <rect key="frame" x="139" y="190" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="9Ns-zy-9kC"/>
+                                    <constraint firstAttribute="width" constant="160" id="X0z-3U-bwU"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="uZU-pL-V0L" firstAttribute="leading" secondItem="Uwy-dX-yxw" secondAttribute="trailing" constant="25" id="2jx-mk-UTm"/>
                             <constraint firstItem="5Zh-Yg-iei" firstAttribute="leading" secondItem="UXd-m1-Yxh" secondAttribute="trailing" constant="8" id="3fu-K4-xX2"/>
                             <constraint firstItem="hlz-Xs-kzw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="3oR-5N-QYR"/>
                             <constraint firstItem="OQ1-ZW-5A5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="223" id="5tb-cL-PBy"/>
@@ -177,6 +181,7 @@
                             <constraint firstItem="0G4-F7-vuL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="300" id="Ged-WZ-ASd"/>
                             <constraint firstItem="2lW-ii-fON" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="Hs3-XN-QUV"/>
                             <constraint firstItem="0ks-tf-Ioy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="115" id="MNd-0Q-z2w"/>
+                            <constraint firstItem="Uwy-dX-yxw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="140" id="SDp-rN-97k"/>
                             <constraint firstItem="5Zh-Yg-iei" firstAttribute="top" secondItem="0G4-F7-vuL" secondAttribute="bottom" constant="1" id="Yma-3O-vAN"/>
                             <constraint firstItem="uZU-pL-V0L" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="223" id="Z0j-7D-lpR"/>
                             <constraint firstItem="UXd-m1-Yxh" firstAttribute="top" secondItem="0G4-F7-vuL" secondAttribute="bottom" constant="1" id="Zsb-GX-9ea"/>
@@ -193,15 +198,23 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="defLabel" destination="5Zh-Yg-iei" id="xbX-ub-OOB"/>
                         <outlet property="defRatingTextField" destination="Kdg-oa-Kwd" id="A1E-C8-1iQ"/>
+                        <outlet property="driLabel" destination="UXd-m1-Yxh" id="jEn-Io-ceo"/>
                         <outlet property="driRatingTextField" destination="L8E-Mi-YID" id="Wt0-9E-8K4"/>
                         <outlet property="flagTextField" destination="llh-sw-wPz" id="F28-KI-Xfs"/>
                         <outlet property="imageView" destination="hlz-Xs-kzw" id="eut-LF-kaZ"/>
+                        <outlet property="pacLabel" destination="2lW-ii-fON" id="3jx-Zc-6Sg"/>
                         <outlet property="pacRatingTextField" destination="cCL-TV-ftu" id="Jv9-39-QrR"/>
+                        <outlet property="pasLabel" destination="pdq-bh-DJA" id="Fc9-ff-ahC"/>
                         <outlet property="pasRatingTextField" destination="RKl-Pz-lmT" id="Zvp-yc-hFq"/>
+                        <outlet property="phyLabel" destination="mq1-dj-AcL" id="glL-FR-ADG"/>
                         <outlet property="phyRatingTextField" destination="t3A-AI-fGJ" id="VDA-6I-R0l"/>
+                        <outlet property="playerImageView" destination="Uwy-dX-yxw" id="KLT-8L-z6o"/>
+                        <outlet property="playerTextField" destination="0G4-F7-vuL" id="b3Q-qB-CjJ"/>
                         <outlet property="positionTextField" destination="0ks-tf-Ioy" id="XGs-AA-3fV"/>
                         <outlet property="ratingTextField" destination="Gvr-bL-gbz" id="8Xi-lP-bKE"/>
+                        <outlet property="shoLabel" destination="lFG-s8-2st" id="fjk-l6-ao3"/>
                         <outlet property="shoRatingTextField" destination="xQ1-Tf-hKw" id="IXc-33-hAN"/>
                     </connections>
                 </viewController>

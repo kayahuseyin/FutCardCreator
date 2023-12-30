@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var ratingTextField: UITextField!
     @IBOutlet var positionTextField: UITextField!
+    @IBOutlet var playerTextField: UITextField!
     @IBOutlet var pacRatingTextField: UITextField!
     @IBOutlet var shoRatingTextField: UITextField!
     @IBOutlet var pasRatingTextField: UITextField!
@@ -19,9 +20,16 @@ class ViewController: UIViewController {
     @IBOutlet var defRatingTextField: UITextField!
     @IBOutlet var phyRatingTextField: UITextField!
     @IBOutlet var flagTextField: UITextField!
+    @IBOutlet var playerImageView: UIImageView!
+    @IBOutlet var pacLabel: UILabel!
+    @IBOutlet var shoLabel: UILabel!
+    @IBOutlet var pasLabel: UILabel!
+    @IBOutlet var driLabel: UILabel!
+    @IBOutlet var defLabel: UILabel!
+    @IBOutlet var phyLabel: UILabel!
     
     var currentIndex = 0 // Image index
-    var ratingIndex = Array(1...99)
+    var ratingIndex = Array((1...99).reversed())
     let countryFlagKeys = Array(Model.countryFlags.keys.sorted())
     var ratingPickerView : UIPickerView = UIPickerView()
     var positionPickerView: UIPickerView = UIPickerView()
@@ -35,6 +43,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        overrideUserInterfaceStyle = .light
         
         positionTextField.delegate = self
         ratingTextField.delegate = self
@@ -76,27 +85,70 @@ class ViewController: UIViewController {
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.handleTap))
         view.addGestureRecognizer(tapGesture)
         
+        let imageSelectionGesture = UITapGestureRecognizer(target: self, action: #selector(playerImageViewTapped))
+        playerImageView.isUserInteractionEnabled = true
+        playerImageView.addGestureRecognizer(imageSelectionGesture)
         
+        
+    }
+    
+    @objc func playerImageViewTapped() {
+        let imagePicker = UIImagePickerController()
+        imagePicker.delegate = self
+        imagePicker.sourceType = .photoLibrary
+        present(imagePicker, animated: true, completion: nil)
     }
 
     @IBAction func rightButtonTapped(_ sender: UIButton) {
         UIView.transition(with: imageView, duration: 0.5, options: .transitionFlipFromRight, animations: {
             self.currentIndex = (self.currentIndex + 1) % Model.imageNames.count
             self.imageView.image = UIImage(named: Model.imageNames[self.currentIndex])
+            self.changeTextColorsForImage(named: "\(Model.imageNames[self.currentIndex])") // Change color of the texts
         }, completion: nil)
+        //if currentIndex == 0 { checkRating() }
     }
     @IBAction func leftButtonTapped(_ sender: UIButton) {
         UIView.transition(with: imageView, duration: 0.5, options: .transitionFlipFromLeft, animations: {
             self.currentIndex = (self.currentIndex - 1 + Model.imageNames.count) % Model.imageNames.count
             self.imageView.image = UIImage(named: Model.imageNames[self.currentIndex])
+            self.changeTextColorsForImage(named: "\(Model.imageNames[self.currentIndex])") // Change color of the texts
         }, completion: nil)
+        //if currentIndex == 0 { checkRating() }
     }
     
      @objc func handleTap() {
         view.endEditing(true)
     }
     
-
+    // The thing I'm going to do is change colors according to cards base color. Ex: if the card color is black. The texts must be white
+    func changeTextColorsForImage(named imageName: String) {
+        switch imageName {
+        case "hereos", "potmBundesliga", "potmEpl", "potmEredivisie", "potmLaliga", "potmLigue1", "potmMls", "potmSerieA":
+           pickTextColors(textColor: "whiteText")
+        case "thunderstruck", "evolution", "totwRed":
+           pickTextColors(textColor: "goldText")
+        default:
+           pickTextColors(textColor: "blackText")
+        }
+    }
+    
+    func pickTextColors(textColor: String) {
+        ratingTextField.textColor = UIColor(named: textColor)
+        positionTextField.textColor = UIColor(named: textColor)
+        playerTextField.textColor = UIColor(named: textColor)
+        pacRatingTextField.textColor = UIColor(named: textColor)
+        shoRatingTextField.textColor = UIColor(named: textColor)
+        pasRatingTextField.textColor = UIColor(named: textColor)
+        driRatingTextField.textColor = UIColor(named: textColor)
+        defRatingTextField.textColor = UIColor(named: textColor)
+        phyRatingTextField.textColor = UIColor(named: textColor)
+        pacLabel.textColor = UIColor(named: textColor)
+        shoLabel.textColor = UIColor(named: textColor)
+        pasLabel.textColor = UIColor(named: textColor)
+        driLabel.textColor = UIColor(named: textColor)
+        defLabel.textColor = UIColor(named: textColor)
+        phyLabel.textColor = UIColor(named: textColor)
+    }
     
 }
 
@@ -181,7 +233,6 @@ extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource, UITextFi
               let ratingValue = Int(ratingText) else {
             return //nothing
         }
-        
         if ratingValue < 65 {
             imageView.image = UIImage(named: "bronze")
         } else if ratingValue < 75 {
@@ -194,8 +245,23 @@ extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource, UITextFi
 }
 
 
+extension ViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        if let pickedImage = info[.originalImage] as? UIImage {
+            playerImageView.image = pickedImage
+            playerImageView.contentMode = .scaleAspectFill
+            playerImageView.clipsToBounds = true
+        }
+        picker.dismiss(animated: true, completion: nil)
+    }
+
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        picker.dismiss(animated: true, completion: nil)
+    }
+}
 
 
 
 
 
+    // Export button will be created. When it's tapped, all of the labels, texts images will be connected
