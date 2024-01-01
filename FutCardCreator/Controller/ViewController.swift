@@ -105,7 +105,7 @@ class ViewController: UIViewController {
             self.imageView.image = UIImage(named: Model.imageNames[self.currentIndex])
             self.changeTextColorsForImage(named: "\(Model.imageNames[self.currentIndex])") // Change color of the texts
         }, completion: nil)
-        //if currentIndex == 0 { checkRating() }
+        checkRating() //Bug fix
     }
     @IBAction func leftButtonTapped(_ sender: UIButton) {
         UIView.transition(with: imageView, duration: 0.5, options: .transitionFlipFromLeft, animations: {
@@ -113,7 +113,7 @@ class ViewController: UIViewController {
             self.imageView.image = UIImage(named: Model.imageNames[self.currentIndex])
             self.changeTextColorsForImage(named: "\(Model.imageNames[self.currentIndex])") // Change color of the texts
         }, completion: nil)
-        //if currentIndex == 0 { checkRating() }
+        checkRating() // Bug fix
     }
     
      @objc func handleTap() {
@@ -233,15 +233,15 @@ extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource, UITextFi
               let ratingValue = Int(ratingText) else {
             return //nothing
         }
-        if ratingValue < 65 {
+        if ratingValue < 65 && currentIndex == 0 {
             imageView.image = UIImage(named: "bronze")
-        } else if ratingValue < 75 {
+        } else if ratingValue < 75 && currentIndex == 0 {
             imageView.image = UIImage(named: "silver")
-        } else {
+        } else if ratingValue > 74 && currentIndex == 0 {
             imageView.image = UIImage(named: "gold")
         }
     }
-    
+    //  When the user switches to cards like icons or heroes and changes the rating, the displayed card was changing again. I prevented this by controlling the currentIndex.
 }
 
 
