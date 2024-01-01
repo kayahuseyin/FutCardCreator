@@ -116,6 +116,54 @@ class ViewController: UIViewController {
         checkRating() // Bug fix
     }
     
+    
+    @IBAction func exportButtonTapped(_ sender: UIButton) {
+        guard let ratingText = ratingTextField.text,
+                  let positionText = positionTextField.text,
+                  let pacText = pacRatingTextField.text,
+                  let shoText = shoRatingTextField.text,
+                  let pasText = pasRatingTextField.text,
+                  let driText = driRatingTextField.text,
+                  let defText = defRatingTextField.text,
+                  let phyText = phyRatingTextField.text,
+                  let image = imageView.image,
+                  let flag = flagTextField.text,
+                  let playerName = playerTextField.text,
+                  let playerImage = playerImageView.image else {
+                return
+            }
+        
+        let boldFont = UIFont.boldSystemFont(ofSize: 30.0) // bold font
+        let boldAttributes: [NSAttributedString.Key: Any] = [
+            .font: boldFont,
+            .foregroundColor: UIColor.black
+        ]
+
+        let renderer = UIGraphicsImageRenderer(size: CGSize(width: 600, height: 800))
+        let finalImage = renderer.image { ctx in
+            UIColor.white.set()
+            ctx.fill(CGRect(origin: .zero, size: CGSize(width: 600, height: 800)))
+
+            let textRect = CGRect(x: 50, y: 50, width: 500, height: 200)
+            let paragraphStyle = NSMutableParagraphStyle()
+            paragraphStyle.alignment = .left
+            let textAttributes: [NSAttributedString.Key: Any] = [
+                .font: UIFont.systemFont(ofSize: 20.0),
+                .foregroundColor: UIColor.black,
+                .paragraphStyle: paragraphStyle
+            ]
+
+            let pacTextRect = CGRect(x: 50, y: 50, width: 200, height: 30)
+               let pacBoldText = NSAttributedString(string: pacText, attributes: boldAttributes)
+               pacBoldText.draw(in: pacTextRect)
+            
+            let imageRect = CGRect(x: 50, y: 100, width: 500, height: 400)
+            image.draw(in: imageRect)
+            }
+
+             UIImageWriteToSavedPhotosAlbum(finalImage, nil, nil, nil)
+    }
+    
      @objc func handleTap() {
         view.endEditing(true)
     }
@@ -149,6 +197,23 @@ class ViewController: UIViewController {
         defLabel.textColor = UIColor(named: textColor)
         phyLabel.textColor = UIColor(named: textColor)
     }
+    
+//    func exportImageToGallery() {
+//        guard let ratingText = ratingTextField.text,
+//              let positionText = positionTextField.text,
+//              let pacText = pacRatingTextField.text,
+//              let shoText = shoRatingTextField.text,
+//              let pasText = pasRatingTextField.text,
+//              let driText = driRatingTextField.text,
+//              let defText = defRatingTextField.text,
+//              let phyText = phyRatingTextField.text,
+//              let image = imageView.image,
+//              let playerImage = playerImageView.image else {
+//            return
+//        }
+//
+//        
+//    }
     
 }
 
@@ -260,8 +325,3 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
     }
 }
 
-
-
-
-
-    // Export button will be created. When it's tapped, all of the labels, texts images will be connected
