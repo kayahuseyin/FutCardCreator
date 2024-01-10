@@ -18,10 +18,12 @@ https://github.com/kayahuseyin/FutCardCreator/assets/88154777/73cd6ff9-9aa9-423f
 ## Issues
 
 - **Export to Gallery:** At this moment, saving created card to the device gallery is not working properly. It will be fixes in upcoming updates.
+- **MVC Design Pattern:** The application currently lacks a clear implementation of the MVC architecture. The app will be refactored in upcoming updates.
+
 
 ## Upcoming Solution
 
-- **Programmatic UI** In the upcoming updates, instead of using the story board the UI will be created programmatically. This change will make it easier to export the card.
+- **Programmatic UI:** In the upcoming updates, instead of using the storyboard the UI will be created programmatically. This change will make it easier to export the card.
 
 
 
